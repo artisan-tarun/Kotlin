@@ -9,4 +9,5 @@ fun main(args: Array<String>) {
     println(sqrt(45.00));
     println(34* PI);
     println(max(2,5));
+    println("Salary :"+ Salary);
 }
