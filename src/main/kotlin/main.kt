@@ -1,4 +1,10 @@
+fun main(args: Array<String>){
+    println("Hello World!!!!");
+}
+
+/*
 import kotlin.math.*;
+
 import java.util.Scanner;
 
 fun main(args: Array<String>) {
@@ -259,3 +265,4 @@ fun isPrime(num:Int): Boolean{
 }
 
 //FUNCTIONS ENDS
+*/
