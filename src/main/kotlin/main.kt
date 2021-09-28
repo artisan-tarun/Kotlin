@@ -1,6 +1,16 @@
 import java.util.Scanner;
 
 fun main(args: Array<String>){
+    var users = Lists();
+
+    val newUser = User("Tarun Chauhan",RoleType.ADMIN , true);
+
+
+    users.userList.add(newUser);
+
+
+    users.show();
+
     println("""
         Kotlin Basics Application
         Designed & Developed by Tarun Chauhan
@@ -14,9 +24,7 @@ fun main(args: Array<String>){
 
     var getInput = Scanner(System.`in`);
 
-    val option:Int = getInput.nextInt()!!;
-
-    when(option){
+    when(getInput.nextInt()!!){
         1-> Calculator();
     }
 }
