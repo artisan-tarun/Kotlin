@@ -1,5 +1,24 @@
+import java.util.Scanner;
+
 fun main(args: Array<String>){
-    println("Hello World!!!!");
+    println("""
+        Kotlin Basics Application
+        Designed & Developed by Tarun Chauhan
+    """.trimIndent());
+    println("""
+        Select from the following options : 
+        1. Simple Calculator.
+        2. Algorithms.
+        3. Simple Games.
+    """.trimIndent())
+
+    var getInput = Scanner(System.`in`);
+
+    val option:Int = getInput.nextInt()!!;
+
+    when(option){
+        1-> Calculator();
+    }
 }
 
 /*
