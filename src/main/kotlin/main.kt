@@ -1,15 +1,6 @@
 import java.util.Scanner;
 
 fun main(args: Array<String>){
-    var users = Lists();
-
-    val newUser = User("Tarun Chauhan",RoleType.ADMIN , true);
-
-
-    users.userList.add(newUser);
-
-
-    users.show();
 
     println("""
         Kotlin Basics Application
@@ -22,6 +13,9 @@ fun main(args: Array<String>){
         3. Simple Games.
         4. Array.
         5. List.
+        6. Map.
+        7. Set.
+        8. Lembda Expression.
     """.trimIndent())
 
     var getInput = Scanner(System.`in`);
@@ -29,6 +23,10 @@ fun main(args: Array<String>){
     when(getInput.nextInt()!!){
         1-> Calculator();
         4-> Arrays();
+        5-> Lists();
+        6-> Maps();
+        7-> Sets();
+        8-> Lambdas();
     }
 }
 
