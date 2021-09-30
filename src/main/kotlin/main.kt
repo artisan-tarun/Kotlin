@@ -20,14 +20,15 @@ fun main(args: Array<String>){
         1. Simple Calculator.
         2. Algorithms.
         3. Simple Games.
-        4. ArrayList.
+        4. Array.
+        5. List.
     """.trimIndent())
 
     var getInput = Scanner(System.`in`);
 
     when(getInput.nextInt()!!){
         1-> Calculator();
-        4-> ArrayList();
+        4-> Arrays();
     }
 }
 

@@ -34,7 +34,7 @@ class ArrayList {
         var limit = getInput.nextInt()!!;
         var i:Int  = users.size;
 
-        while(i < limit+i){
+        while(i      < limit+i){
             println(
                 """
             Enter new user to add to the list
