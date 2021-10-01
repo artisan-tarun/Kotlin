@@ -16,6 +16,7 @@ fun main(args: Array<String>){
         6. Map.
         7. Set.
         8. Lembda Expression.
+        9. Inheritance.
     """.trimIndent())
 
     var getInput = Scanner(System.`in`);
@@ -27,6 +28,7 @@ fun main(args: Array<String>){
         6-> Maps();
         7-> Sets();
         8-> Lambdas();
+        9-> Inheritances();
     }
 }
 
